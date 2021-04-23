@@ -8,8 +8,6 @@ import epics.wx
 from logging import debug,warn,info,error
 
 
-import wx
-
 __version__ = "0.0.0" #initial
 prefix = 'NIH:SYRINGE1.'
 class PanelTemplate(wx.Frame):
